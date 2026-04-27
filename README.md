@@ -49,3 +49,27 @@ Happy coding!
 - Yahoo Finance's chart API was attempted but blocked by CORS in the browser
 - Finnhub's free tier is rate-limited to 60 API calls/minute; loading a large watchlist may approach this limit since each item fetches a quote and profile independently
 - The Finnhub API key is stored in a `.env` file and exposed to the client via `VITE_FINNHUB_API_KEY` — this is acceptable for a prototype but the key should be treated as public
+
+
+## Prompts Used
+
+1. Create a Vue + Vite app in this directory
+2. Now please read the file instructions.md and come up with a plan to create this webpage.
+3. Everything looks good, but don't worry about deployment. I will simply do npm run build and npm run deploy to deploy to github pages.
+4. I updated the .env.example file to just be .env and put in the API key
+5. What features would really make this app pop?
+6. Lets do the news feed on the home page
+7. I would like to have news show up without having to search. Right now the home page is very empty.
+8. Can you change the name of this site to "Tickr"
+9. What are your suggestions to make this homepage look better?
+10. Please implement all of those suggestions.
+11. Now when you search for a ticker, the results show up under the market bar, which is easy to miss and seems like the search did not work. I think if you search a stock, it should take you to its own page with news related to that ticker and show the price and maybe a graph.
+12. When searching I get the error "Failed to load stock data."
+13. That works better. The chart says "Chart data unavailable" though
+14. It still says "Chart data unavailable" on localhost. Are there any other options or should we stop trying for graphs
+15. Now, when you type in a ticker, I would like to see a drop down of matching tickers, so you can click on one. Since people may not remember a ticker exactly
+16. Now please edit the README to include: which AI tools you used, which stock data service or API you used, which features are working, which features are incomplete, any deployment limitations or API issues you encountered
+17. Now please make broad git commits of all of these changes
+18. Can you make npm run deploy work?
+19. Is there anything we missed in the instructions.md file? Don't make changes yet if so
+
